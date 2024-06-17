@@ -6,7 +6,7 @@ import UserSingle from './components/UserSingle';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/react-team">
       <Routes>
         <Route path="/" element={<RegisterForm />} />
         <Route path="/users" element={<UserList/>} />
