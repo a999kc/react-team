@@ -1,0 +1,115 @@
+.user-list-up {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #512689;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+.user-list-title {
+    font-size:64px;
+    font-weight:400;
+    line-height:75px;
+    margin: 0;
+}
+
+.user-list-paragraph {
+    font-size:20px;
+    font-weight:400;
+    line-height:23px;
+    max-width:868px;
+    text-align:center;
+    margin: 0;
+}
+
+.logout-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color:#fff;
+    cursor: pointer;
+    border:2px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: opacity 0.3s;
+}
+
+.logout-button:hover {
+    opacity:0.8
+}
+
+
+
+.user-list {
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin: 0px auto;
+    align-items:center;
+    justify-content:center;
+}
+
+.user-card {
+    width:305px;
+    padding:16px;
+    outline:1px solid #ccc;
+    text-align:center;
+    border-radius:4px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.user-card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.user-card-avatar {
+    border-radius: 50%;
+}
+
+
+.user-card-name,.user-card-email {
+    margin:0;
+}
+
+.user-card-name {
+    margin-bottom: 10px;
+}
+
+.user-card-email {
+    color: #888;
+}
+
+
+@media (max-width: 480px) {
+    .user-list-up {
+      
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .user-list-title {
+        font-size:36px;
+    }
+
+    .user-list-paragraph  {
+        font-size:16px;
+    }
+
+    .logout-button {
+        margin: 10px;
+        padding: 6px 14px;
+        font-size: 16px;
+    }
+
+    .user-list {
+        margin:0;
+        flex-direction:column;
+    }
+}

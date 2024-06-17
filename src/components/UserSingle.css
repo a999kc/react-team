@@ -1,0 +1,89 @@
+.user-single-header {
+    display:flex;
+    justify-content:space-between;
+
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #512689;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+
+
+.user-single-return,.user-single-logout {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color:#fff;
+    cursor: pointer;
+    border:2px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: opacity 0.3s;
+}
+
+.user-single-return:hover {
+    opacity:0.8;
+}
+
+.user-single-logout:hover {
+    opacity:0.8;
+}
+
+.user-details {
+    text-align: center;
+    margin: 20px;
+}
+  
+.user-avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+  
+.user-name {
+    font-size: 2em;
+    margin: 10px 0;
+}
+  
+.user-email {
+    color: #fff;
+    opacity:0.8;
+}
+  
+.user-single-paragraph {
+    max-width:630px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.return-icon-container {
+    display: none;
+}
+
+.return-button-container {
+    display: block;
+}
+
+/* Скрываем иконку по умолчанию */
+.logout-icon-container {
+    display: none;
+}
+  
+/* Отображаем кнопку по умолчанию */
+.logout-button-container {
+    display: block;
+}
+  
+@media (max-width: 480px) {
+/* Скрываем кнопку на маленьких экранах */
+    .logout-button-container,.return-button-container {
+        display: none;
+    }
+  
+    /* Отображаем иконку на маленьких экранах */
+    .logout-icon-container,.return-icon-container {
+        display: block;
+    }
+}
