@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-team/static/css/main.ecdadbe6.css",
+    "main.js": "/react-team/static/js/main.1de6eadb.js",
+    "index.html": "/react-team/index.html",
+    "main.ecdadbe6.css.map": "/react-team/static/css/main.ecdadbe6.css.map",
+    "main.1de6eadb.js.map": "/react-team/static/js/main.1de6eadb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecdadbe6.css",
+    "static/js/main.1de6eadb.js"
+  ]
+}
